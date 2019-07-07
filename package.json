@@ -1,0 +1,31 @@
+{
+  "name": "meadowlark",
+  "version": "1.0.0",
+  "description": "I am following the book project of 'Web development with Node and Express' by Ethan Brown",
+  "main": "meadowlark.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node meadowlark.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EviCoach/meadowlark.git"
+  },
+  "author": "Evi Owhotemu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EviCoach/meadowlark/issues"
+  },
+  "homepage": "https://github.com/EviCoach/meadowlark#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.0",
+    "@babel/node": "^7.5.0",
+    "@babel/preset-env": "^7.5.0",
+    "nodemon": "^1.19.1"
+  }
+}
